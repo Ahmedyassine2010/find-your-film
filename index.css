@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+.my-watchlist {
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+#input {
+    width: 300px;
+}
+
+#search {
+    width: 100px;
+}
+
+.movie {
+    display: flex;
+    margin: 3em;
+} 
+
+.img-movie {
+    width: 25%;
+    margin-right: 2em;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.fa-plus:hover {
+    color: red;
+}
