@@ -39,4 +39,5 @@ function renderMovies(){
 
 clearMyWatchlist.addEventListener("click",function(){
     localStorage.clear()
+    document.getElementById("movies-container").innerHTML = ""
 })

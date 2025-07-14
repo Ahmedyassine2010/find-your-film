@@ -35,7 +35,7 @@ searchButton.addEventListener("click", function(e){
     fetch(`https://www.omdbapi.com/?s=${inputSearch.value}&apikey=6bbd5fb6&type=movie`)
         .then(res => res.json())
         .then(data => {
-            // console.log(data)
+            console.log(data)
             let apiData = ""
             for(movie of data.Search){
                 fetch(`https://www.omdbapi.com/?i=${movie.imdbID}&apikey=6bbd5fb6`)
