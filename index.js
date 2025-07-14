@@ -13,6 +13,7 @@ if (moviesFromLocalStorage){
 }
 
 document.addEventListener('click', function(e){
+    e.preventDefault()
     if(e.target.dataset.imdbid){
         handleImdbIdClick(e.target.dataset.imdbid)
     }
